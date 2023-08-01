@@ -1,6 +1,6 @@
 # IOT-Security-Gadget-Based-on-ESP32
 
-An IoT home security alarm system based on ESP32 and Tasmota is a smart alarm system designed to secure a home network by detecting potential security threats and triggering an audible alarm. The system is built using an ESP32 microcontroller and Tasmota firmware.
+is a smart security system designed to detect any unauthorized entry into a home and alert the homeowner via MQTT Protocol  and call to their mobile phone. The system is built using an ESP32 microcontroller and Tasmota firmware.
 
 ESP32 is a powerful microcontroller that's commonly used in IoT projects due to its low cost, low power consumption, and built-in Wi-Fi and Bluetooth connectivity. The ESP32 can be used to process data from various sensors and modules, making it a perfect choice for a home security system.
 
