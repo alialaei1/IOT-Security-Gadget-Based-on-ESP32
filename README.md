@@ -85,7 +85,7 @@ The MQTT protocol is a lightweight messaging protocol that's commonly used in Io
 
 ## Tasmota and software
 
-### For more information, Tasmota and scripts ```Src/COM.ino```
+### For more information, Tasmota and scripts ```Src/...```
 
 
 ## License
