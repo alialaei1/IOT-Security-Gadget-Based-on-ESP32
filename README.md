@@ -49,7 +49,7 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 ## Features
 
 -  Tasmota firmware:
-    -  This project uses ... as the main core on ... which makes it very easy to connect the gadget to the server.
+    -  This project uses Tasmota firmware as the main core on ESP32, which makes it very easy to connect the gadget to the server.
 
 -  PIR Sensor:
     -  4 wired zones
