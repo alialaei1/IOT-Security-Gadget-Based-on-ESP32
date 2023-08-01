@@ -41,29 +41,22 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 
 ## Features
 
--  ZONE:
-    -  4 wired zones
+-  Tasmota firmware:
     -  10 wireless zones for connecting wireless sensors
 
--  Remote controller:
-    -  Supports 10 remote controllers
+-  PIR Sensor:
+    -  4 wired zones
       
--  Caller memory:
-    -  Stores up to 10 mobile phone numbers
-      
--  Battery charger:
+-  Internal battery:
     -  Equipped with an internal charging and battery protection circuit
 
- -  Internal siren circuit:
-    -  Features a 45-watt internal siren circuit
-
- -  External antenna socket:
+ -  External USB socket:
     -  Includes an SMA socket for connecting the SIM800 antenna
 
  -  IOT:
     -  Allows for internet connection via Wi-Fi
 
- -  SMS:
+ -  Call:
     -  Control (on, off, settings) via SMS.
       
 <br/>
