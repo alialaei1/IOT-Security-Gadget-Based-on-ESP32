@@ -1,6 +1,6 @@
 # IOT-Security-Gadget-Based-on-ESP32
 
-is a smart security system designed to detect any unauthorized entry into a place and alert the homeowner via MQTT Protocol  and call to their mobile phone. The system is built using an ESP32 microcontroller and Tasmota firmware.
+is a smart security system designed to detect any unauthorized entry into a place and alert the homeowner via MQTT Protocol  and call to their mobile phone. The system is built using an ESP32 microcontroller, a PIR sensor, an internal battery and Tasmota firmware.
 
 ESP32 is a powerful microcontroller that's commonly used in IoT projects due to its low cost, low power consumption, and built-in Wi-Fi and Bluetooth connectivity. The ESP32 can be used to process data from various sensors and modules, making it a perfect choice for a home security system. [refrence](https://github.com/espressif/arduino-esp32)
 
