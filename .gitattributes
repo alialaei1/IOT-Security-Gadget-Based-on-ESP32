@@ -1,4 +1,4 @@
 *.ino linguist-detectable=false
-*.cpp linguist-detectable=false
 *.txt linguist-detectable=false
 *.be linguist-detectable=false
+*.h linguist-detectable=false
