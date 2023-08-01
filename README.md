@@ -6,7 +6,7 @@
 <div align="center"><a href="#"><img src="Images/7.jpg"  width="1200"></a><br></div>
 <div align="center"><a href="#"><img src="Images/IMG_4720.jpg"  width="1200"></a><br></div>
 <div align="center"><a href="#"><img src="Images/3.jpg"  width="1200"></a><br></div>
-<div align="center"><a href="#"><img src="Images/IMG_4723.jpg"  width="1200"></a><br></div>
+<div align="center"><a href="#"><img src="Images/IMG_4723.JPG"  width="1200"></a><br></div>
 <br/>
 
 ## Features
