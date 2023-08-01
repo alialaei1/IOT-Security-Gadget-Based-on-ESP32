@@ -52,6 +52,8 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 <br/>
 
 
+[Google Play](https://play.google.com/store/apps/details?id=tg.nilinet.starter&hl=en_US&gl=US)
+
 ## Features
 
 -  Tasmota firmware:
