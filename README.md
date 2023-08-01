@@ -35,6 +35,13 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 ### This project has been tested more than 8000 hours...
 
 
+## Animated description of the project
+<br/>
+<br/>
+<div align="center"><a href="#"><img src="Images/ezgif.com-video-to-gif.gif"  width="1200"></a><br></div>
+
+<br/>
+
 
 
 <br/>
