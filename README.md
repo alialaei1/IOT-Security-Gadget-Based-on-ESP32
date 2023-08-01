@@ -47,17 +47,12 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 This IoT mobile app is built with JavaScript and MQTT protocol and is designed to communicate with IoT devices in a network using the MQTT protocol to exchange data. The app is specifically built for Android platforms using JavaScript and can run on various Android devices.
 
 The MQTT protocol is a lightweight messaging protocol that's commonly used in IoT applications. It's designed for low-bandwidth, high-latency networks and can handle a large number of devices simultaneously. The MQTT protocol allows IoT devices to communicate with each other and with the app, exchanging data in real-time.
-
-
 <br/>
-<br/>
-
 <div align="center"><a href="#"><img src="Images/1234.png"  width="1200"></a><br></div>
 
 <br/>
+### For more information and download : [Google Play](https://play.google.com/store/apps/details?id=tg.nilinet.starter&hl=en_US&gl=US)
 
-
-[Google Play](https://play.google.com/store/apps/details?id=tg.nilinet.starter&hl=en_US&gl=US)
 
 ## Features
 
