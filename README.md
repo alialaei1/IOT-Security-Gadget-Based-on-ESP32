@@ -3,9 +3,9 @@
 ### This project has been tested more than 8000 hours...
 
 <div align="center"><a href="#"><img src="Images/IMG_4723.JPG"  width="1200"></a><br></div>
+
 <div align="center"><a href="#"><img src="Images/20200601_164423.jpg"  width="1200"></a><br></div>
-<div align="center"><a href="#"><img src="Images/7.jpg"  width="1200"></a><br></div>
-<div align="center"><a href="#"><img src="Images/IMG_4720.JPG"  width="1200"></a><br></div>
+
 <div align="center"><a href="#"><img src="Images/3.jpg"  width="1200"></a><br></div>
 
 <br/>
