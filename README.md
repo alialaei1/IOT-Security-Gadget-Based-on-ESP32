@@ -68,18 +68,9 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
       
 <br/>
 
-## Setup
-
-
-### Hardware setup
-
-
-### SMS setup
-
+## Tasmota and software
 
 ### For detailed information ```Src/COM.ino```
-
-
 
 
 ## License
