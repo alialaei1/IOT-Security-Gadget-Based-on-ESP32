@@ -1,6 +1,12 @@
 # IOT-Security-Gadget-Based-on-ESP32
 
+<div align="center"><a href="#"><img src="Images/IMG_4723.JPG"  width="1200"></a><br></div>
+<br/>
 IoT security gadget based on ESP32 is a smart security system designed to detect any unauthorized entry into a place and alert the homeowner via MQTT Protocol  and call to their mobile phone. The system is built using an ESP32 microcontroller, a PIR sensor, an internal battery and Tasmota firmware.
+<br/>
+
+<div align="center"><a href="#"><img src="Images/3.jpg"  width="1200"></a><br></div>
+
 
 ESP32 is a powerful microcontroller that's commonly used in IoT projects due to its low cost, low power consumption, and built-in Wi-Fi and Bluetooth connectivity. The ESP32 can be used to process data from various sensors and modules, making it a perfect choice for a home security system. [refrence](https://github.com/espressif/arduino-esp32)
 
@@ -18,11 +24,9 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 
 ### This project has been tested more than 8000 hours...
 
-<div align="center"><a href="#"><img src="Images/IMG_4723.JPG"  width="1200"></a><br></div>
 
 <div align="center"><a href="#"><img src="Images/20200601_164423.jpg"  width="1200"></a><br></div>
 
-<div align="center"><a href="#"><img src="Images/3.jpg"  width="1200"></a><br></div>
 
 <br/>
 
