@@ -49,22 +49,22 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 ## Features
 
 -  Tasmota firmware:
-    -  This project uses Tasmota firmware as the main core on ESP32, which makes it very easy to connect the gadget to the server.
+    -  This project uses Tasmota firmware as the main core on ESP32, which makes it very easy to connect the gadget to the server. [refrence](https://github.com/arendst/Tasmota)
 
 -  PIR Sensor:
     -  4 wired zones
       
 -  Internal battery:
-    -  Equipped with an internal charging and battery protection circuit
+    -  The internal battery is a rechargeable battery that's built into the system, providing power to the system for an extended period, even if there's a power outage.
 
- -  External USB socket:
-    -  Includes an SMA socket for connecting the SIM800 antenna
+ -  External USB port:
+    -  USB port for connecting all types of internet modems that have 5V power supply.
 
  -  IOT:
-    -  Allows for internet connection via Wi-Fi
+    -  Sending and receiving information with the MQTT protocol for any device or person.
 
  -  Call:
-    -  Control (on, off, settings) via SMS.
+    -  Sending calls to mobile phones through the server.
       
 <br/>
 
