@@ -6,6 +6,8 @@ IoT security gadget based on ESP32 is a smart security system designed to detect
 
 
 <br/>
+<br/>
+
 <div align="center"><a href="#"><img src="Images/20200601_164423.jpg"  width="1200"></a><br></div>
 <br/>
 
@@ -20,6 +22,7 @@ The PIR sensor is a motion sensor that detects changes in infrared radiation in 
 The ESP32 microcontroller can process the data from the PIR sensor and trigger various actions and alerts based on the data. For example, when the PIR sensor detects motion, the system can send an alert to the user's smartphone or trigger an audible alarm.
 
 To power the system, an internal battery can be used. The internal battery is a rechargeable battery that's built into the system, providing power to the system for an extended period, even if there's a power outage.
+<br/>
 <br/>
 
 <div align="center"><a href="#"><img src="Images/3.jpg"  width="1200"></a><br></div>
