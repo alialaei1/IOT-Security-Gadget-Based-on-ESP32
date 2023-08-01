@@ -6,9 +6,15 @@ ESP32 is a powerful microcontroller that's commonly used in IoT projects due to 
 
 Tasmota firmware is an open-source firmware for ESP8266 and ESP32-based devices that provides a web interface for configuration and control of the device. It's designed to be easy to use and highly configurable, making it a popular choice for DIY IoT projects. [refrence](https://github.com/arendst/Tasmota)
 
+The PIR sensor is a motion sensor that detects changes in infrared radiation in its field of view. When an intruder enters the field of view, the PIR sensor detects the movement and sends a signal to the ESP32 microcontroller.
+
+The ESP32 microcontroller can process the data from the PIR sensor and trigger various actions and alerts based on the data. For example, when the PIR sensor detects motion, the system can send an alert to the user's smartphone or trigger an audible alarm.
+
+To power the system, an internal battery can be used. The internal battery is a rechargeable battery that's built into the system, providing power to the system for an extended period, even if there's a power outage.
+
 The system can also be integrated with other smart home devices, such as smart lights and smart locks. This allows the user to control the security system and other smart home devices from a single interface.
 
-Overall, an IoT home security alarm system based on ESP32 and Tasmota is a simple yet effective solution for detect any unauthorized entry into a place.
+Overall, an IoT home security alarm system based on ESP32 and Tasmota is a simple yet effective solution for detect any unauthorized entry into a place even during power outages.
 
 ### This project has been tested more than 8000 hours...
 
