@@ -1,0 +1,65 @@
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+                            MSS
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+*******************************************************************
+
+    {                     // MSSV1 - MSSV1 (ESP8266)
+    0,          // GPIO00 Button
+    0,          // GPIO01 Serial RXD and Optional sensor
+    GPI8_KEY1,          // GPIO02 Only available on newer Sonoff Basic R2 V1
+    0,          // GPIO03 Serial TXD and Optional sensor
+    0,          // GPIO04 Optional sensor
+    0,                  // GPIO05
+                        // GPIO06 (SD_CLK   Flash)
+                        // GPIO07 (SD_DATA0 Flash QIO/DIO/DOUT)
+                        // GPIO08 (SD_DATA1 Flash QIO/DIO/DOUT)
+                        // GPIO09 (SD_DATA2 Flash QIO or ESP8285)
+                        // GPIO10 (SD_DATA3 Flash QIO or ESP8285)
+                        // GPIO11 (SD_CMD   Flash)
+    0,          // GPIO12 Red Led and Relay (0 = Off, 1 = On)
+    GPI8_LEDLNK,      // GPIO13 Green Led (0 = On, 1 = Off) - Link and Power status
+    0,          // GPIO14 Optional sensor
+    0,                  // GPIO15
+    0,                  // GPIO16
+    0                   // ADC0 Analog input
+  }
+
+*******************************************************************
+*******************************************************************
+
+Rule3
+on system#Init do if (mem1==0) mem1 0 endif endon
+on system#Init do if (mem2==0) mem2 0 endif endon
+on system#Init do if (mem3==0) mem3 0 endif endon
+on Mqtt#Connected do Publish2 nilinet/sensor/security/rft/v1-0/%topic%/sta/RUL {"Rule1":%mem1%,"Rule2":%mem2%,"Rule3":%mem3%,"Time":%UTCTIME%} endon
+Rule3 1
+mem3 1
+WebServer 0
+
+*******************************************************************
+*******************************************************************
+
+    Rul1_1 = '''Rule1  
+on system#boot do if (mem5=="") mem5 0 endif endon
+on system#boot do if (mem4=="") mem4 0 endif endon 
+on system#boot do LedState 1 endon
+on system#boot do if (mem5!="") Publish2 nilinet/sensor/security/mss/v1-0/%topic%/sta/PIR {"PIR":"Boot","PIRCounter":%mem5%,"Time":%UTCTIME%} endif endon 
+on Switch1#state=1 do if (mem4!=0) mem5=mem5+1 endif endon 
+on Switch1#state=1 do if (mem4!=0) RuleTimer1 1 endif endon 
+on Switch1#state=1 do if (mem4!=0) RuleTimer2 10 endif endon 
+on Rules#Timer=1 do if (mem5!="") Publish2 nilinet/sensor/security/mss/v1-0/%topic%/sta/PIR {"PIR":"Confirm","PIRCounter":%mem5%,"Time":%UTCTIME%} endif endon 
+on Rules#Timer=2 do if (mem5!="") Publish2 nilinet/sensor/security/mss/v1-0/%topic%/sta/PIR {"PIR":"Pass","PIRCounter":%mem5%,"Time":%UTCTIME%} endif endon
+on Mem4#State do if (mem4!=0) Publish2 nilinet/sensor/security/mss/v1-0/%topic%/sta/POW {"POW":"ON", "Time":%UTCTIME%} ELSE Publish2 nilinet/sensor/security/mss/v1-0/%topic%/sta/POW {"POW":"OFF", "Time":%UTCTIME%} endif endon'''
+    Rul1_2 = '''Rule1 + 
+on Button1#state do if (mem4!=0) mem4 0 ELSE mem4 1 endif endon 
+on system#boot do if (mem4!=0) Publish2 nilinet/sensor/security/mss/v1-0/%topic%/sta/POW {"POW":"ON", "Time":%UTCTIME%} endif endon ;Rule1 1;mem1 1;Restart 1'''
+
+*******************************************************************
+*******************************************************************
