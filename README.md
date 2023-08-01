@@ -57,7 +57,7 @@ Overall, an IoT security gadget based on ESP3 and Tasmota is a simple yet effect
 ## Features
 
 -  Tasmota firmware:
-    -  ESP32 is a powerful microcontroller that's commonly used in IoT projects due to its low cost, low power consumption, and built-in Wi-Fi and Bluetooth connectivity. The ESP32 can be used to process data from various sensors and modules, making it a perfect choice for a home security system. refrence [refrence](https://github.com/arendst/Tasmota)
+    -  Tasmota firmware is an open-source firmware for ESP8266 and ESP32-based devices that provides a web interface for configuration and control of the device. It's designed to be easy to use and highly configurable, making it a popular choice for DIY IoT projects. [refrence](https://github.com/arendst/Tasmota)
 
 -  PIR Sensor:
     -  The PIR sensor is a motion sensor that detects changes in infrared radiation in its field of view. The ESP32 microcontroller can process the data from the PIR sensor and trigger various actions and alerts based on the data.
