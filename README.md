@@ -4,7 +4,7 @@ is a smart security system designed to detect any unauthorized entry into a home
 
 ESP32 is a powerful microcontroller that's commonly used in IoT projects due to its low cost, low power consumption, and built-in Wi-Fi and Bluetooth connectivity. The ESP32 can be used to process data from various sensors and modules, making it a perfect choice for a home security system. [refrence](https://github.com/espressif/arduino-esp32)
 
-Tasmota firmware is an open-source firmware for ESP8266 and ESP32-based devices that provides a web interface for configuration and control of the device. It's designed to be easy to use and highly configurable, making it a popular choice for DIY IoT projects.
+Tasmota firmware is an open-source firmware for ESP8266 and ESP32-based devices that provides a web interface for configuration and control of the device. It's designed to be easy to use and highly configurable, making it a popular choice for DIY IoT projects. [refrence](https://github.com/arendst/Tasmota)
 
 The IoT home security alarm system can be equipped with various sensors, such as PIR motion sensors, door and window sensors, and temperature and humidity sensors. These sensors can be used to detect motion, changes in temperature and humidity levels, and unauthorized access to doors and windows.
 
