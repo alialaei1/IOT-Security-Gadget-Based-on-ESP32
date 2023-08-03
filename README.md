@@ -80,8 +80,8 @@ The MQTT protocol is a lightweight messaging protocol that's commonly used in Io
  -  IOT:
     -  Sending and receiving information with the MQTT protocol for any device or person.
 
- -  Call:
-    -  Sending calls to mobile phones through the server.
+ -  Call and SMS:
+    -  Sending SMS and calls to mobile phones through the server.
       
 <br/>
 
