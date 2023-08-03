@@ -3,6 +3,10 @@
 <div align="center"><a href="#"><img src="Images/8.png" width="400" ></a><br><br></div>
 IoT security gadget based on ESP32 is a smart security system designed to detect any unauthorized entry into a place and alert the homeowner via MQTT Protocol  and call to their mobile phone. The system is built using an ESP32 microcontroller, a PIR sensor, an internal battery and Tasmota firmware.
 
+<br/>
+
+<br/>
+
 <div align="center"><a href="#"><img src="Images/IMG_4723.JPG"  width="1200"></a><br></div>
 <br/>
 
