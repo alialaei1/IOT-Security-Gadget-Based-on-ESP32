@@ -6,10 +6,6 @@ IoT security gadget based on ESP32 is a smart security system designed to detect
 <div align="center"><a href="#"><img src="Images/IMG_4723.JPG"  width="1200"></a><br></div>
 <br/>
 
-
-<br/>
-<br/>
-
 <div align="center"><a href="#"><img src="Images/20200601_164423.jpg"  width="1200"></a><br></div>
 <br/>
 
