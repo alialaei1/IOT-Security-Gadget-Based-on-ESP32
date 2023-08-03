@@ -1,6 +1,6 @@
 # IOT-Security-Gadget-Based-on-ESP32
 
-<div align="center"><a href="#"><img src="images/8.png" width="400" ></a><br><br>
+<div align="center"><a href="#"><img src="Images/8.png" width="400" ></a><br><br>
 
 <div align="center"><a href="#"><img src="Images/IMG_4723.JPG"  width="1200"></a><br></div>
 <br/>
